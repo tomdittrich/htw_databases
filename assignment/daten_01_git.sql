@@ -238,3 +238,201 @@ VALUES (9004,160003);
 
 INSERT INTO geraet_auf(geraet_nr, job_nr)
 VALUES (11002,160003);
+
+-- 160004
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (5004,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (6001,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (6002,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (7001,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (7002,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (8003,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (8001,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (9003,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (11001,160004);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (11002,160004);
+
+-- 170001
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (5001,170001);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (6004,170001);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (7003,170001);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (8002,170001);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (9004,170001);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (11003,170001);
+
+-- 170002
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (5004,170002);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (6002,170002);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (7001,170002);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (8001,170002);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (9003,170002);
+
+-- 170003
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (5005,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (6001,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (7001,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (8002,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (9004,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (11002,170003);
+
+INSERT INTO geraet_auf(geraet_nr, job_nr)
+VALUES (11004,170003);
+
+-- Kabel auf Job
+-- 160001
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50003, 160001, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 160001, 5);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50151, 160001, 5);
+
+-- 160002
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50003, 160002, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50051, 160002, 1);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 160002, 5);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50151, 160002, 5);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50104, 160002, 1);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50204, 160002, 3);
+
+-- 160003
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50006, 160003, 2);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50001, 160003, 2);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50003, 160003, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 160003, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50152, 160003, 3);
+
+-- 160004
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50002, 160004, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50004, 160004, 20);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50051, 160004, 2);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 160004, 11);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50103, 160004, 7);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50151, 160004, 15);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50201, 160004, 20);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50204, 160004, 16);
+
+-- 170001
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50003, 170001, 4);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50005, 170001, 10);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50152, 170001, 2);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50202, 170001, 8);
+
+-- 170002
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50004, 170002, 8);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 170002, 4);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50151, 170002, 3);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50204, 170002, 4);
+
+-- 170003
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50002, 170003, 4);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50005, 170003, 5);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50102, 170003, 1);
+
+INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+VALUES (50104, 170003, 1);
