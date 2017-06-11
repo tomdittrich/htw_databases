@@ -1,15 +1,15 @@
 -- Eigentuemer
 INSERT INTO eigentuemer(pers_nr, name, tel_nr, kassen_nr, betrag) 
-VALUES (1001, 'Atlan', 004930123456, 2001, 2000); 
+VALUES (1001, 'Atlan', 004930123456, 2001, 1161);
 
 INSERT INTO eigentuemer(pers_nr, name, tel_nr, kassen_nr, betrag) 
-VALUES (1002, 'Icho', 0049170987654, 2002, 0); 
+VALUES (1002, 'Icho', 0049170987654, 2002, 1805);
 
 INSERT INTO eigentuemer(pers_nr, name, tel_nr, kassen_nr, betrag) 
-VALUES (1003, 'Gucky', 00493350000, 2003, 9064.20); 
+VALUES (1003, 'Gucky', 00493350000, 2003, 386);
 
 INSERT INTO eigentuemer(pers_nr, name, tel_nr, kassen_nr, betrag) 
-VALUES (1004, 'Tom', 004930666, 2004, 5594.77); 
+VALUES (1004, 'Tom', 004930666, 2004, 556);
 
 -- Regale
 INSERT INTO regal(regal_nr, faecher) 
@@ -176,7 +176,7 @@ INSERT INTO job(job_nr, von, bis, kunde)
 VALUES (160003, '2016-12-21', '2016-12-22', 'Andromeda');
 
 INSERT INTO job(job_nr, von, bis, kunde)
-VALUES (160004, '2016-12-30', '2017-01-02', 'Hyperion');
+VALUES (160004, '2016-12-30', '2017-01-02', 'Europa');
 
 INSERT INTO job(job_nr, von, bis, kunde)
 VALUES (170001, '2017-03-13', '2017-03-13', 'Plophos');
@@ -332,110 +332,110 @@ VALUES (11004,170003);
 
 -- Kabel auf Job
 -- 160001
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50003, 160001, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 160001, 5);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50151, 160001, 5);
 
 -- 160002
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50003, 160002, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50051, 160002, 1);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 160002, 5);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50151, 160002, 5);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50104, 160002, 1);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50204, 160002, 3);
 
 -- 160003
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50006, 160003, 2);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50001, 160003, 2);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50003, 160003, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 160003, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50152, 160003, 3);
 
 -- 160004
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50002, 160004, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50004, 160004, 20);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50051, 160004, 2);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 160004, 11);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50103, 160004, 7);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50151, 160004, 15);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50201, 160004, 20);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50204, 160004, 16);
 
 -- 170001
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50003, 170001, 4);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50005, 170001, 10);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50152, 170001, 2);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50202, 170001, 8);
 
 -- 170002
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50004, 170002, 8);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 170002, 4);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50151, 170002, 3);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50204, 170002, 4);
 
 -- 170003
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50002, 170003, 4);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50005, 170003, 5);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50102, 170003, 1);
 
-INSERT INTO kabel_auf(kabel_nr, job_nr, menge)
+INSERT INTO kabel_auf(kabel_nr, job_nr, anzahl)
 VALUES (50104, 170003, 1);

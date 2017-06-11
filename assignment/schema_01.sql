@@ -53,6 +53,6 @@ CREATE TABLE geraet_auf
 CREATE TABLE kabel_auf
 		(kabel_nr		INTEGER REFERENCES kabel ON DELETE CASCADE,
 		job_nr			INTEGER REFERENCES job ON DELETE CASCADE,
-		menge			INTEGER NOT NULL,
+		anzahl			INTEGER NOT NULL,
 		PRIMARY KEY		(kabel_nr, job_nr)
 		);
