@@ -187,6 +187,9 @@ VALUES (170002, '2017-05-23', '2017-05-25', 'Ganymed');
 INSERT INTO job(job_nr, von, bis, kunde)
 VALUES (170003, '2017-06-09', '2017-06-15', 'Hyperion');
 
+INSERT INTO job(job_nr, von, bis, kunde)
+VALUES (170004, '2017-12-30', '2018-01-01', 'Andromeda');
+
 -- Geräte auf Job
 -- 160001
 INSERT INTO geraet_auf(geraet_nr, job_nr)
